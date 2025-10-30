@@ -1,2 +1,14 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+programa {
+  funcao inicio() {
+    inteiro valor=123
+    inteiro unidade,dezena,centena,novo
+
+    unidade=valor%10
+    dezena=(valor%100)/10
+    centena=valor/100
+
+    novo=unidade*100+dezena*10+centena
+
+    escreva(valor,"ao contrário é: "+(unidade*100+dezena*10+centena))
+  }
+}
